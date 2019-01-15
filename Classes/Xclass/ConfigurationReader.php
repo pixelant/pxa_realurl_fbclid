@@ -51,7 +51,7 @@ class ConfigurationReader extends \DmitryDulepov\Realurl\Configuration\Configura
      */
     protected $defaultValues = array(
         'cache/banUrlsRegExp' => '/tx_solr|tx_indexedsearch|tx_kesearch|(?:^|\?|&)q=/',
-        'cache/ignoredGetParametersRegExp' => '/^(?:gclid|utm_(?:source|medium|campaign|term|content)|fbclid|pe_data|pk_campaign|pk_kwd|TSFE_ADMIN_PANEL.*)$/',
+        'cache/ignoredGetParametersRegExp' => '/^(?:gclid|hss_channel|utm_(?:source|medium|campaign|term|content)|fbclid|pe_data|pk_campaign|pk_kwd|TSFE_ADMIN_PANEL.*)$/',
         'fileName/acceptHTMLsuffix' => true,
         'fileName/defaultToHTMLsuffixOnPrev' => false,
         'init/appendMissingSlash' => 'ifNotFile,redirect[301]',
